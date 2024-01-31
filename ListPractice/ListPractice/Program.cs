@@ -8,80 +8,80 @@ class Program
 
     static void Main(string[] args)
     {
-        //List<int> insttemo = new List<int>();
-        //insttemo.Add(1);
-        //insttemo.Add(546);
-        //List<int> ints = new List<int>();
+        List<int> insttemo = new List<int>();
+        insttemo.Add(1);
+        insttemo.Add(546);
+        List<int> ints = new List<int>();
 
-        //ints.Add(12);
-        //ints.Add(34);
-        //ints.Add(56);
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
-        //ints.RemoveAt(1);
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
-        //ints.Add(67);
-        //ints.Add(345);
-        //ints.RemoveRange(0, 1);
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
+        ints.Add(12);
+        ints.Add(34);
+        ints.Add(56);
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        ints.RemoveAt(1);
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
+        ints.Add(67);
+        ints.Add(345);
+        ints.RemoveRange(0, 1);
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
 
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //Console.WriteLine(ints.Contains(4));
-        //Console.WriteLine(ints.Contains(56));
+        Console.WriteLine(ints.Contains(4));
+        Console.WriteLine(ints.Contains(56));
 
-        //ints.AddRange(insttemo);
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
+        ints.AddRange(insttemo);
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
 
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //Console.WriteLine(ints.Capacity);
-        //Console.WriteLine(ints.Count);
-        //Console.WriteLine(ints.IndexOf(1));
-        //ints.Insert(2,333);
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
+        Console.WriteLine(ints.Capacity);
+        Console.WriteLine(ints.Count);
+        Console.WriteLine(ints.IndexOf(1));
+        ints.Insert(2,333);
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
 
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //Console.WriteLine(ints.LastIndexOf(333));
+        Console.WriteLine(ints.LastIndexOf(333));
 
-        //ints.Remove(333);
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
+        ints.Remove(333);
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
 
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //ints.Sort();
-        //ints.Reverse();
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
-        //foreach (var item in ints)
-        //{
-        //    Console.WriteLine(item);
-        //}
+        ints.Sort();
+        ints.Reverse();
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        foreach (var item in ints)
+        {
+           Console.WriteLine(item);
+        }
 
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //Console.WriteLine(ints.Sum());
+        Console.WriteLine(ints.Sum());
 
 
         Dictionary<string, int> emtel = new Dictionary<string, int>();
@@ -100,59 +100,59 @@ class Program
         Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
 
-       // Console.WriteLine("emailinizi  daxil edin:");
-       // string email = Console.ReadLine();
+       Console.WriteLine("emailinizi  daxil edin:");
+       string email = Console.ReadLine();
 
-       // int  phone;
-       // if(emtel.TryGetValue(email,out phone))
-       // {
+       int  phone;
+       if(emtel.TryGetValue(email,out phone))
+       {
 
-       //     Console.WriteLine(phone);
-       // }
-       // else
-       // {
-       //     Console.WriteLine("tapilmadi!");
-       // }
-       // Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+           Console.WriteLine(phone);
+       }
+       else
+       {
+           Console.WriteLine("tapilmadi!");
+       }
+       Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-       // Console.WriteLine("emailinizi daxil edin:");
-       // string email1 = Console.ReadLine();
-       // Console.WriteLine("nomrenizi daxil edin: ");
-       // int phone1 = Convert.ToInt32(Console.ReadLine());
+       Console.WriteLine("emailinizi daxil edin:");
+       string email1 = Console.ReadLine();
+       Console.WriteLine("nomrenizi daxil edin: ");
+       int phone1 = Convert.ToInt32(Console.ReadLine());
         
-       //if(emtel.TryAdd(email1, phone1))
-       // {
-       //     Console.WriteLine("elave edildi!");
-       // }
+       if(emtel.TryAdd(email1, phone1))
+       {
+           Console.WriteLine("elave edildi!");
+       }
 
-       // else
-       // {
-       //     Console.WriteLine("elave edile bilmedi!");
-       // }
+       else
+       {
+           Console.WriteLine("elave edile bilmedi!");
+       }
 
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
 
-        //Stack<int> num = new Stack<int>();
-        //num.Push(12);
-        //num.Push(45);
-        //num.Push(123);
-        //num.Push(232);
-        //foreach (var item in num)
-        //{
-        //    Console.WriteLine(item);
-        //}
-        //num.Pop();
-        //num.Pop();
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        Stack<int> num = new Stack<int>();
+        num.Push(12);
+        num.Push(45);
+        num.Push(123);
+        num.Push(232);
+        foreach (var item in num)
+        {
+           Console.WriteLine(item);
+        }
+        num.Pop();
+        num.Pop();
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //foreach (var item in num)
-        //{
-        //    Console.WriteLine(item);
-        //}
-        //Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+        foreach (var item in num)
+        {
+           Console.WriteLine(item);
+        }
+        Console.WriteLine("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
-        //// Console.WriteLine(num.Peek());
+        // Console.WriteLine(num.Peek());
 
         Queue<string> str = new Queue<string>();
         str.Enqueue("cf");
