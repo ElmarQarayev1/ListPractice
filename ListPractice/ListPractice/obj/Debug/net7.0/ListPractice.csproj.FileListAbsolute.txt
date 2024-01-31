@@ -1,0 +1,15 @@
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/bin/Debug/net7.0/ListPractice
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/bin/Debug/net7.0/ListPractice.deps.json
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/bin/Debug/net7.0/ListPractice.runtimeconfig.json
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/bin/Debug/net7.0/ListPractice.dll
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/bin/Debug/net7.0/ListPractice.pdb
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.csproj.AssemblyReference.cache
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.AssemblyInfoInputs.cache
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.AssemblyInfo.cs
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.csproj.CoreCompileInputs.cache
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.dll
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/refint/ListPractice.dll
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.pdb
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ListPractice.genruntimeconfig.cache
+/Users/elmar/Desktop/CodeAcademy/Homeworks/List/ListPractice/ListPractice/obj/Debug/net7.0/ref/ListPractice.dll
